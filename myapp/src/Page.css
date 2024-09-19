@@ -1,0 +1,38 @@
+.welcome-container {
+    padding: 50px; /* กำหนดระยะห่างของข้อความภายในคอนเทนเนอร์ */
+    text-align: center; /* จัดวางข้อความให้อยู่ตรงกลาง */
+    background-image: url('4.jpg'); /* กำหนดพื้นหลังเป็นรูปภาพ */
+    background-size: 100%; /* ให้ภาพขยายตามขนาดของคอนเทนเนอร์ */
+    background-position: center; /* ให้ภาพอยู่ตรงกลาง */
+    height: 807px;
+}
+
+.welcome-heading {
+    color: #0a0b0b; /* สีข้อความเป็นขาว */
+    font-size: 36px; /* ขนาดตัวอักษร */
+    margin-bottom: 20px; /* กำหนดระยะห่างของข้อความจากด้านล่าง */
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 2px solid #000000; /* กำหนดขอบข้อความ */
+    padding: 10px; /* กำหนดระยะห่างของข้อความภายในกรอบ */
+    background-image: url('2.jpg');
+    border-radius: 40px; /* กำหนดมุมของกรอบเป็น 0 เพื่อไม่มีมุม */
+    font-family: Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.title {
+    color: rgb(20, 29, 94);
+    font-size: 24px; /* กำหนดขนาดตัวอักษร */
+    margin-top: 20px; /* กำหนดระยะห่างของข้อความจากด้านบน */
+    padding: 10px; /* กำหนดระยะห่างของข้อความภายในคอนเทนเนอร์ */
+    border: 2px solid #000000; /* กำหนดขอบข้อความ */
+    border-radius: 10px; /* กำหนดมุมของกรอบ */
+    background-color: rgba(255, 255, 255, 0.7); /* กำหนดสีพื้นหลังโปร่งใส */
+    font-family: Arial, sans-serif; /* กำหนดแบบอักษร */
+    font-weight: normal; /* กำหนดความหนาของตัวอักษร */
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+    margin-bottom: 20px; /* กำหนดระยะห่างของข้อความจากด้านล่าง */
+}

@@ -1,0 +1,89 @@
+.a{
+    background-image: url('3.jpg');
+}
+
+.header {
+    background-color: #10141a; /* สีพื้นหลังของ header */
+    color: #ffffff; /* สีข้อความของ header */
+    padding: 10px 20px; /* ระยะห่างของ header */
+  }
+
+  .header a {
+    margin-right: 20px; /* ระยะห่างระหว่างลิงค์ */
+}
+  
+  h1 {
+    font-size: 50x; /* ขนาดตัวอักษรของหัวข้อหลัก */
+    display: grid;
+    justify-content: center;
+    background: skyblue;
+    padding: 10px 20px;
+  }
+  
+  p {
+    font-size: 18px; /* ขนาดตัวอักษรของข้อความปกติ */
+  }
+  
+  .btn-outline-primary {
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
+    border-color: #007bff; /* สีขอบของปุ่ม */
+    color: #ffffff; /* สีข้อความของปุ่ม */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0056b3; /* เปลี่ยนสีพื้นหลังของปุ่มเมื่อ hover */
+    border-color: #0056b3; /* เปลี่ยนสีขอบของปุ่มเมื่อ hover */
+  }
+  
+  .col {
+    margin: 10px; /* ระยะห่างของ column */
+  }
+  
+  ul {
+    list-style-type: none; /* ลบ bullet point ของรายการ */
+    padding: 0; /* ลบระยะห่างของรายการ */
+  }
+  
+  li {
+    margin-bottom: 5px; /* ระยะห่างของรายการ */
+  }
+
+  li:hover {
+    transform: translateY(-2px); /* เลื่อนรายการขึ้นเล็กน้อยเมื่อ hover */
+  }
+  
+  input[type="number"] {
+    width: 300px; /* กำหนดความกว้างของ input number */
+  }
+  
+  button {
+    cursor: pointer; /* ตั้งค่า cursor เป็น pointer เมื่อชี้ที่ปุ่ม */
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
+    color: #ffffff; /* สีข้อความของปุ่ม */
+    border: none; /* ลบเส้นขอบของปุ่ม */
+    padding: 5px 10px; /* ระยะห่างของปุ่ม */
+    margin-left: 10px;
+    cursor: pointer; /* ตั้งค่า cursor เป็น pointer เมื่อชี้ที่ปุ่ม */
+    border-radius: 3px; /* มุมของปุ่ม */
+  }
+
+  button.c {
+    cursor: pointer; /* ตั้งค่า cursor เป็น pointer เมื่อชี้ที่ปุ่ม */
+    background-color: #ff0000; /* สีพื้นหลังของปุ่ม */
+    color: #ffffff; /* สีข้อความของปุ่ม */
+    border: none; /* ลบเส้นขอบของปุ่ม */
+    padding: 5px 10px; /* ระยะห่างของปุ่ม */
+    margin-left: 10px;
+    cursor: pointer; /* ตั้งค่า cursor เป็น pointer เมื่อชี้ที่ปุ่ม */
+    border-radius: 3px; /* มุมของปุ่ม */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* เปลี่ยนสีพื้นหลังของปุ่มเมื่อ hover */
+  }
+
+  .d{
+    margin-top: 20px;
+    background-color: rgba(167, 141, 141, 0.7); /* กำหนดสีพื้นหลังโปร่งใส */
+    padding-left: 20px;
+  }

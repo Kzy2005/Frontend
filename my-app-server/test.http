@@ -1,0 +1,27 @@
+# GET http://localhost:8080/users 
+
+# POST http://localhost:8080/add_user HTTP/1.1
+# content-type: application/json
+
+# {
+#     "user_name": "mimi",
+#     "user_pwd": "1111",
+#     "first_name": "Milan",
+#     "last_name": "Millor",
+#     "email": "mimi@gmail.com"
+# }
+
+# POST http://localhost:8080/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "username": "test1",
+#     "password": "1111"
+# }
+
+POST http://localhost:8080/api/products/type/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "5a105e8b9d40e1329780d62ea2265d8a"
+}         

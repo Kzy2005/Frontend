@@ -1,0 +1,29 @@
+.b{
+  padding: 50px; /* กำหนดระยะห่างของข้อความภายในคอนเทนเนอร์ */
+    background-image: url('764967.png'); /* กำหนดพื้นหลังเป็นรูปภาพ */
+    background-size: 100%; /* ให้ภาพขยายตามขนาดของคอนเทนเนอร์ */
+    background-position: center; /* ให้ภาพอยู่ตรงกลาง */
+    height: 807px;
+}
+
+.container {
+  background-color: #f8f9fa; /* สีพื้นหลัง */
+  padding: 20px;
+  border-radius: 10px; /* มุมมนสูง */
+}
+
+.container form {
+  background-color: #fff; /* สีพื้นหลังของฟอร์ม */
+  padding: 20px;
+  border-radius: 10px; /* มุมมนสูง */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+  background-color: #f1f3f5; /* สีพื้นหลังของช่อง input */
+  border: none; /* ไม่มีเส้นขอบ */
+  padding: 10px;
+  border-radius: 5px; /* มุมมนสูง */
+  margin-bottom: 10px;
+}

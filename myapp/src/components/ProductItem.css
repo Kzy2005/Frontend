@@ -1,0 +1,14 @@
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .All{
+      display: grid;
+      flex-wrap: wrap;
+      
+       width: 300px;
+  }
