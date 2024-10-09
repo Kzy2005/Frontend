@@ -4,7 +4,7 @@ var connection = mysql.createPool({
     host : 'localhost',
     user : 'root',
     password : '',
-    database : 'my-product2'
+    database : 'my-product'
 });
 
 pool.query(
